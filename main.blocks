@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="Jo(b+:e7g~bux0dV#fyr" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="}!(Aaq3xV(2`{jG}12B."><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        # # # # #
+        `</field></block></statement></block><block type="device_button_event" id="j)hNIJk+PrrZsVTMIwk3" x="167" y="394"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="Mglh310TUftLk2_T+/(|"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="1znu47+V~|pNa}TT4NM5"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="8/*0NMXOGJ[=%fq.bRZ1"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="+Hv;Y4]56aRr;+3(V4=)"><field name="NUM">0</field></shadow><block type="device_get_sound_level" id=")^{[EtySu-zI5O?weNd;"></block></value><value name="B"><shadow type="math_number" id="j?4mw@d7OW3^51~+;He]"><field name="NUM">125</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="YFuOV;Y6bB6B^RyJuim]"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . # # . . 
+        . # # . . 
+        . # . . .
+        `</field><next><block type="MotorRun" id="8hP_VOU=FRbT7^=;QUV|"><value name="lspeed"><shadow type="math_number_minmax" id="pk[QBY^l~i^8pQl$%3~v"><mutation min="-100" max="100" label="Lspeed" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><value name="rspeed"><shadow type="math_number_minmax" id="*X`rulE()Z2PEzTCTdK,"><mutation min="-100" max="100" label="Rspeed" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="uA9e-+(3)UIn=FV.{DCe"><value name="pause"><shadow type="timePicker" id="(iiu0U3JTEE5x{gditHe"><field name="ms">2000</field></shadow></value></block></next></block></next></block></statement><statement name="ELSE"><block type="MotorRun" id="T1cuN}!HZN%-1A4_u^_]"><value name="lspeed"><shadow type="math_number_minmax" id="c2M4yI3c:(aVD^!]`0^U"><mutation min="-100" max="100" label="Lspeed" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><value name="rspeed"><shadow type="math_number_minmax" id="nPsM/X5C3dxX^kheE9j|"><mutation min="-100" max="100" label="Rspeed" precision="0"></mutation><field name="SLIDER">50</field></shadow></value></block></statement></block></statement></block></xml>
